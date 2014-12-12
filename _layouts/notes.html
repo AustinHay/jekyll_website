@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+          <div>
+          <div class="notes-background-img">
+          
+          <div class="wrapper notes-text transparent-background">
+            {% include notes-landing.html %}
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>

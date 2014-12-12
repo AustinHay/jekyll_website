@@ -1,0 +1,21 @@
+# Site settings
+destination: ./austinhay.github.io
+title: Austin A. Hay	
+email: austin@austinhay.com
+description: > 
+  This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.austinhay.com/" # the base hostname & protocol for your site
+twitter_username: austinahay	
+github_username:  austinhay
+linkedin_username: austinhay
+
+career_title1: "Consultant"
+career_title2: "Social Entrepreneur"
+career_title3: "Rookie Programmer"
+career_title4: "Stanford & USC Grad"
+
+career_descriptors: "Engineering, Social Impact, Sanitation, WASH, Product Design, High Tech Strategy"
+
+# Build settings
+markdown: kramdown

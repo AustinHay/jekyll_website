@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+{% assign homepage_header = true %}
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {% include home_imgs.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

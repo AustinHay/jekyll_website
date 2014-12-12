@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <head>
+  <script type="text/javscript">
+
+  $(document).ready(function(){
+    var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
+    $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+    });
+	</script>
+
+  <script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
+  
+  </head>
+
+  <body>
+
+    {% include header.html %}
+	<div>
+       <div class="follow-background-img">  
+          <div class="wrapper transparent-background">
+            {% include follow.html %}
+
+          </div>
+        </div>
+      </div>
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+

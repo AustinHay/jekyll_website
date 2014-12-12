@@ -1,0 +1,33 @@
+
+
+	<h1 class="page-heading">Follow</h1>
+    <!-- Twitter Widget -->
+          <a href="https://twitter.com/AustinAHay" data-widget-id="540548955508318208" class="twitter-timeline">Tweets by @AustinAHay</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script>
+		
+
+        <!-- Strava Widget -->
+        <iframe id="strava-widget" height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/athletes/3615909/latest-rides/2c6325ca570da2b816ab3644488c4f207bc9cbe4'>
+        </iframe>
+<!-- Instagram Photos -->
+          {% assign image = '{{image}}' %}
+          {% assign link = '{{link}}' %}
+
+<div style="width: 100%">
+          <script type="text/javascript">
+              var feed = new Instafeed({
+                  get: 'user',
+                  userId: 1505275294,
+                  accessToken: '1505275294.467ede5.624b9e4478884a7aa6b0c9ea6ca2667e', 
+                  sortBy: 'random',
+                  limit: '12',
+                  resolution: 'standard_resolution',
+                  template: '<li><a href="{{link}}"><img src="{{image}}"/></a><li>'
+                  });
+                  feed.run();
+          </script>
+          
+          <div id="instafeed"></div>
+</div>
+
