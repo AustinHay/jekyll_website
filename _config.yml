@@ -1,5 +1,5 @@
 # Site settings
-destination: ./austinhay.github.io
+destination: ../austinhay.github.io
 title: Austin A. Hay	
 email: austin@austinhay.com
 description: > 
