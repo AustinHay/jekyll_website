@@ -1,4 +1,4 @@
-/**
+f/**
  * Site header
  */
 .site-header {
@@ -184,8 +184,8 @@
  */
 
 .career-col {
+    margin-left: auto;
     vertical-align: middle;
-    float: left;
     overflow: hidden;
     z-index: 1;
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -210,19 +210,6 @@
             min-width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Page content
