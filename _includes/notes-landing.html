@@ -1,18 +1,46 @@
 
 <div class="home">
-        <h1 class="page-heading">Notes</h1>
+        <h1 class="page-heading">Notes</h1>    
+
+<!-- Search Bar HTML -->
+<div id="search-bar">
+  <input type="text" id="search-input" placeholder="Quick Search...">
+  <ul id="results-container"></ul>
+</div>
+
+<!-- End Search Bar -->
 
           <ul class="post-list">
             {% for post in site.posts %}
             <li>
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+            
+            <span class="category-tag-icon">{{post.category}}</span>
+              {% for tag in post.tags %}
+                <span class="category-tag-icon">{{ tag }}</span>
+              {% endfor %}
             </li>
+            
             {% endfor %}
           </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   </div>
+
+  <!-- Search Bar JS -->
+
+<script type="text/javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '../search.json',
+        searchResultTemplate: '<li id="search results"><a href="{url}" title={title}">{title}</a></li>',
+        noResultsText: 'Sorry, no search matches. Try something else.',
+        limit: 5,
+        fuzzy: false,
+      })
+    </script>  
 
   <div class="post">

@@ -508,3 +508,64 @@
   overflow: hidden;
   z-index: 1;
   width: 100%; }
+
+#search-bar {
+  max-width: 100%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 1.25%;
+  margin: 1%;
+  margin-bottom: 2%;
+  }
+
+#search-input {
+  display: inline-block;
+  padding: 1%;
+  width: 100%;
+  font-size: 120%;
+  border: 1px solid $grey-color-dark;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+#search-results {
+  text-align: left;
+  padding: 5%;
+  margin: 0;
+
+    li {
+        padding: $spacing-unit;
+        margin: $spacing-unit;
+    }
+
+}
+
+#results-container {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 3%;
+  border: 1px solid $grey-color-light;
+   border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+
+.category-tag-icon {
+  display: inline-block;
+  margin-left: 0.1%;
+  padding: 0 0.5em;
+  margin-right: 0.1%;
+  color: white;
+  background-color: $grey-color-dark;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: inset 5% $grey-color-light;
+  -webkit-border-box-shadow: inset 5% $grey-color-light;
+  -moz-border-box-shadow: inset 5% $grey-color-light;
+  text-align: center;
+  font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+}
