@@ -5,7 +5,6 @@ date:   2015-01-05
 category: "coding"
 excerpt_separator: <!--more-->
 tags:
- - coding
  - web-development
  - django
  - python
