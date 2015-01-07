@@ -3,16 +3,9 @@
     	<div style="max-width:95%">
         <h1 id="home-title">Austin Alexander Hay</h1>
       </div>
-    </div>
+  </div>
 
-
-    <div class="page-content">
-      <div class="wrapper-smallest">
-
-        <div class="headshot_wrap">
-    		  <img class="circularheadshot_center" src="images/headshot.jpg">
-          </div>
-   			
+      <div class="wrapper-centered">
    			<div class="career-col"> 
 				<ul class="career-list">
 					{% if site.career_title1 %}
@@ -25,16 +18,25 @@
           			{% endif %}
           		<ul>
           	</div>
+          </div>
+        </div>
 
-          	
-
-      </div>
+    <div id="home-img-bottom-2">
+        <div id="coding-text">
+          <p>{{ site.language_descriptors }}</p>
+        </div>
     </div>
 
-    <div class="home-img-bottom">
+  <div class="wrapper-centered">
+          <img class="circularheadshot_center" src="images/headshot.jpg">
+  </div>
+
+    <div id="home-img-bottom-1">
       	<div id="home-text">
         	<p>{{ site.career_descriptors }}</p>
       	</div>
     </div>
+
+    
 
 
