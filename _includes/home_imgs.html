@@ -1,9 +1,30 @@
+<script>
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.home-img-bottom-2').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
+</script>
 
- 	<div class="home-img-top soft-blur">
-    	<div style="max-width:95%">
+ 	<div class="home-img-top">
+    	<div>
         <h1 id="home-title">Austin Alexander Hay</h1>
       </div>
   </div>
+
+<!--   <div class="wrapper-centered">
+          <img class="circularheadshot_center_homepage" src="images/headshot-alt.jpg">
+  </div> -->
+
+  <div class="wrapper-centered" style="height: 400px">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <!-- Front Image -->
+                <img class="circularheadshot_center_homepage front" src="images/headshots/homepage-1.jpg">
+                <!-- Back Image -->
+                <img class="circularheadshot_center_homepage back" src="images/headshots/scuba-1.png">
+            </div>
+          </div>
+  </div>     
 
       <div class="wrapper-centered">
    			<div class="career-col"> 
@@ -21,17 +42,14 @@
           </div>
         </div>
 
-    <div id="home-img-bottom-2">
+    <div id="home-img-bottom-1">
         <div id="coding-text">
           <p>{{ site.language_descriptors }}</p>
         </div>
-    </div>
 
-  <div class="wrapper-centered">
-          <img class="circularheadshot_center" src="images/headshot-alt.jpg">
   </div>
 
-    <div id="home-img-bottom-1">
+    <div id="home-img-bottom-2">
       	<div id="home-text">
         	<p>{{ site.career_descriptors }}</p>
       	</div>

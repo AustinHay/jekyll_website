@@ -1,4 +1,4 @@
-f/**
+/**
  * Site header
  */
 .site-header {
@@ -247,10 +247,7 @@ f/**
     font-size: 24px;
 }
 
-
-/**
- * Posts
- */
+/* Posts */
 .post-header {
   margin-bottom: 25px; }
 
@@ -281,6 +278,7 @@ f/**
       .post-content h4 {
         font-size: 18px; } }
 
+/* Home Page Elements and Styling */
 .home-img-top {
   padding: 0;
   margin: 0;
@@ -289,11 +287,18 @@ f/**
   text-align: center;
   vertical-align: middle;
   background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  overflow: hidden; 
+  min-height: 100%; 
+  
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; 
+  
+  box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -webkit-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -moz-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -o-box-shadow: 0 5px 20px 0px $grey-color-dark;
 
   }
 
@@ -303,41 +308,52 @@ f/**
   z-index: 0;
   text-align: center;
   vertical-align: top;
-  background: url(/images/post-backgrounds/2.jpg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/3.jpg) no-repeat center center fixed;
+  overflow: hidden; 
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+  
+  box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -webkit-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -moz-box-shadow: 0 5px 8px 20px $grey-color-dark;
+  -o-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  }
 
-#home-img-bottom-2 {
+  #home-img-bottom-2 {
   height: cover;
   width: auto;
   z-index: 0;
   text-align: center;
   vertical-align: top;
-  background: url(/images/post-backgrounds/3.jpg) no-repeat center center fixed;
+  background: url(/images/post-backgrounds/2.jpg) no-repeat center center fixed;
+  overflow: hidden; 
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+  
+  box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -webkit-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  -moz-box-shadow: 0 5px 8px 20px $grey-color-dark;
+  -o-box-shadow: 0 5px 8px 20px $grey-color-dark;
+  }
 
 #home-title {
-  margin: 0;
   font-family: 'La Belle Aurore', cursive;
   color: white;
   vertical-align: middle;
   text-align: center;
   font-size: 300%;
   padding-top: 16%;
-  padding-bottom: 16%;
-  padding-right: 0;
-  padding-left: 0; }
+  padding-bottom: 16%; }
 
 .home-career-titles {
   font-family: 'Lobster', cursive;
-  color: #111;
+  color: #3B3B3B;
   line-height: 1.8;
   vertical-align: middle;
   font-size: 160%;
@@ -352,7 +368,7 @@ f/**
 #home-text {
   font-family: 'Oldenburg', cursive;
   font-weight: 900;
-  color: black;
+  color: white;
   width: auto;
   line-height: 1.5;
   vertical-align: middle;
@@ -366,26 +382,78 @@ f/**
 #coding-text {
   font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   font-weight: 425;
-  color: white;
+  color: black;
   width: auto;
   vertical-align: middle;
   font-size: 160%;
-  height: 110%;
+  height: 200%;
   background-color: rgba(255, 255, 255, 0.10);
   background-size: cover;
   padding: 5%;
 }
 
-.circularheadshot_center {
+.circularheadshot_center_homepage {
   float: none;
-  display: inline;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  position: absolute;
   vertical-align: middle;
+  display: block;
+
   border-radius: 300%;
   -webkit-border-radius: 300%;
-  -moz-border-radius: 15%; }
+  -moz-border-radius: 300%;
+  -o-border-radius: 300%;
+  }
+
+/* FLIP ANIMATION ON FRONT HOMEPAGE */
+
+/* entire container, keeps perspective */
+.flip-container {
+  height: auto;
+  perspective: 1000;
+  display: block;
+}
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+.flip-container, .front, .back {
+  float: none;
+  width: auto;
+  
+}
+
+/* flip speed goes here */
+.flipper {
+  height: auto;
+  width: auto;
+  transition: 0.75s;
+  transform-style: preserve-3d;
+  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s; 
+  -moz-transition-delay: 0.5s;  
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  vertical-align: middle;
+  height: auto;
+  backface-visibility: hidden;
+  display: inline;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
 
 .circularheadshot_left {
   float: left;
@@ -393,7 +461,7 @@ f/**
   vertical-align: middle;
   border-radius: 300%;
   -webkit-border-radius: 300%;
-  -moz-border-radius: 15%; }
+  -moz-border-radius: 300%; }
 
 .project-snapshot-left {
   float: left;
