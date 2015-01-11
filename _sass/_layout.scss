@@ -414,7 +414,11 @@
 }
   /* flip the pane when hovered */
   .flip-container:hover .flipper, .flip-container.hover .flipper {
+
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
   }
 
 .flip-container, .front, .back {
@@ -427,19 +431,33 @@
 .flipper {
   height: auto;
   width: auto;
+
   transition: 0.75s;
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -o-transition: 0.75s;
+
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+
   transition-delay: 0.5s;
   -webkit-transition-delay: 0.5s; 
   -moz-transition-delay: 0.5s;  
+  -o-transition-delay: 0.5s;
 }
 
 /* hide back of pane during swap */
 .front, .back {
   vertical-align: middle;
   height: auto;
-  backface-visibility: hidden;
   display: inline;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
 }
 
 /* front pane, placed above back */
@@ -448,11 +466,17 @@
   
   /* for firefox 31 */
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .circularheadshot_left {
@@ -461,7 +485,8 @@
   vertical-align: middle;
   border-radius: 300%;
   -webkit-border-radius: 300%;
-  -moz-border-radius: 300%; }
+  -moz-border-radius: 300%;
+  -o-border-radius: 300% }
 
 .project-snapshot-left {
   float: left;
@@ -469,11 +494,14 @@
   width: 45%;
   vertical-align: middle;
   border: 1px solid #cccccc;
+  margin: 0 2% 2% 0;
+  padding: 1.80%; 
+
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  margin: 0 2% 2% 0;
-  padding: 1.80%; }
+  -o-border-radius: 6px;
+  }
 
 .project-boxes {
   float: left;
@@ -489,11 +517,13 @@
   z-index: 0;
   vertical-align: middle;
   background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  overflow: hidden;
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+ }
 
 .follow-background-img {
   height: cover;
@@ -501,11 +531,13 @@
   z-index: 0;
   vertical-align: middle;
   background: url(/images/post-backgrounds/5.jpg) no-repeat center center fixed;
+  overflow: hidden; 
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+  }
 
 .project-text {
   padding: 2%;
@@ -527,11 +559,13 @@
   z-index: 0;
   vertical-align: middle;
   background: url(/images/post-backgrounds/6.jpg) no-repeat center center fixed;
+  overflow: hidden; 
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+  }
 
 .imageright {
   float: right;
@@ -575,10 +609,13 @@
     border: 1px solid #828282;
     float: left;
     vertical-align: top;
+    border-radius: 2.25px; 
+
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-radius: 2.25px; }
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    }
 
  #instafeed {
   display: block;
@@ -608,10 +645,11 @@
   width: 100%;
   font-size: 120%;
   border: 1px solid $grey-color-dark;
+  
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
+  -o-box-sizing: border-box;
 }
 
 #search-results {
@@ -631,26 +669,33 @@
   margin: 0;
   margin-top: 3%;
   border: 1px solid $grey-color-light;
-   border-radius: 2px;
+  
+  border-radius: 2px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 .category-tag-icon {
+  font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  color: white;
+  background-color: $grey-color-dark;
+  text-align: center;
+
   display: inline-block;
   margin-left: 0.1%;
   padding: 0 0.5em;
   margin-right: 0.1%;
-  color: white;
-  background-color: $grey-color-dark;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  
   box-shadow: inset 5% $grey-color-light;
   -webkit-border-box-shadow: inset 5% $grey-color-light;
   -moz-border-box-shadow: inset 5% $grey-color-light;
-  text-align: center;
-  font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  -o-border-box-shadow: inset 5% $grey-color-light;
+  
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .year-in-review-photos {
@@ -659,17 +704,25 @@
     margin: 1%;
     max-width: 29%;
     height: auto;
-    border: 1px solid #828282;
     vertical-align: middle;
+    border: 1px solid #828282;
+
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-radius: 2.25px; }
+    -o-box-sizing: border-box;
+
+    border-radius: 2.25px;
+    -webkit-border-radius: 2.25px;
+    -moz-border-radius: 2.25px;
+    -o-border-radius: 2.25px; }
 
 .headshot_wrap {
+  float: left;
+  
   max-width: -webkit-calc(200px - (25px * 2));
   max-width: calc(200px - (25px * 2));
-  float: left;
+  
   margin-right: auto;
   margin-left: auto;
   padding-right: 25px;
