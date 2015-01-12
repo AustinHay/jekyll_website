@@ -1,28 +1,103 @@
+<html prefix="og: http://ogp.me/ns#"/>
+
 <head>
     <!--- Basic Info -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--- Open Graph Data -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+      {% if page.title %}
+          {{ page.title }}
+        {% else %}
+          {{ site.title }}
+      {% endif %}
+    </title>
+    
+    <!--- OPEN GRAPH DATA -->
 
+    <!--- Site Name -->
+    <meta property="og:site_name" content="{{ site.title }}"/>
+
+    <!--- Page Titles -->
+    {% if page.title %}
+            <meta property="og:title" content="{{ page.title }}"/>
+        {% else %}
+            <meta property="og:title" content="{{ site.title }}"/>
+    {% endif %}
+
+    <!--- Page Type -->
+    {% if page.title %}
+        <meta property="og:type" content="article"/>
+      {% else %}
+        <meta property="og:type" content="website"/>
+    {% endif %}
+
+    <!--- Description -->
+    {% if page.description %}
+      <meta property="og:description" content="{{ page.description }}"/>
+    {% else %}
+      <meta property="og:description" content="{{ site.description }}"/>
+    {% endif %}
+
+    <!--- URL -->
+    {% if page.url %}
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% endif %}
+
+    <!--- Page Category -->
+    {% if page.categories %}
+        {% for category in page.categories limit:1 %}
+            <meta property="article:section" content="{{ category }}"/>
+        {% endfor %}
+    {% endif %}
+
+    <!--- Tag Categories -->
+    {% if page.tags %}
+        {% for tag in page.tags %}
+            <meta property="article:tag" content="{{ tag }}"/>
+        {% endfor %}
+    {% endif %}
+
+    <!--- Date  -->
+    {% if page.date %}
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+    {% endif %}
+
+    <!--- Author  -->
+    {% if page.author %}
+          {% for author in page.author limit:1 %}
+            <meta property="article:section" content="{{ author }}"/>
+          {% endfor %}
+        {% else %}
+            <meta property="article:section" content="Austin Hay"/>
+    {% endif %}
+
+    <!-- Images -->
+    {% if page.image %}
+        <meta property="og:image" content="/img/posts/{{ page.image }}" />
+      {% else %}
+        <meta property="og:image" content="/images/og-images/1.png" />
+    {% endif %}
+
+    <!--- OTHER META INFO -->
+    <meta property="og:locale" content="en_us"/>
+
+    <!--- END OF OPEN GRAPH META DATA -->
 
     <!--- Favicon Icon -->
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
+    
     <!--- Style Sheets -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' >
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'>
-  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto' >
-  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'>
-    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=La+Belle+Aurore'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600'/>
+  	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto'/>
+  	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Javascripts -->

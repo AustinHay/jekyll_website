@@ -66,8 +66,9 @@ frequency: "daily"
   {% for post in site.posts %}
   <tr>
   	<td><url><loc>http://austinhay.com{{ post.url }}</loc></url></td>
+    <td><changefreq>{{page.frequency}}</changefreq></td>
   	<td><lastmod>{{ post.date | date_to_xmlschema }}</lastmod></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
+  	
   </tr>
   {% endfor %}
 
@@ -84,7 +85,9 @@ frequency: "daily"
   <tr>
   	<td><url><loc>http://austinhay.com/search.html?category={{ category | first | downcase }}</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
+  </tr>
   {% endfor %}
+
 
 	</tbody>
   </table>

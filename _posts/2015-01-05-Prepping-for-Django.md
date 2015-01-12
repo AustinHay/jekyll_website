@@ -1,7 +1,8 @@
 ---
 layout: md_post
-title:  "Prepping for Django"
-date:   2015-01-05
+title: "Prepping for Django"
+date: 2015-01-05
+author: Austin Hay
 category: "coding"
 excerpt_separator: <!--more-->
 tags:

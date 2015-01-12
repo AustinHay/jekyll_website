@@ -1,7 +1,8 @@
 ---
 layout: md_post
-title:  "The Essential System Setup for Beginner Coders"
-date:   2015-01-06
+title: "The Essential System Setup for Beginner Coders"
+date: 2015-01-06
+author: Austin Hay
 category: "coding"
 excerpt_separator: <!--more-->
 tags:

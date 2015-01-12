@@ -1,7 +1,8 @@
 ---
 layout: md_post
-title:  "Working Through the Django Tutorial: Outline &amp; Takeaways Part 1"
-date:   2015-01-04
+title: "Working Through the Django Tutorial: Outline &amp; Takeaways Part 1"
+date: 2015-01-04
+author: Austin Hay
 category: "coding"
 excerpt_separator: <!--more-->
 tags:

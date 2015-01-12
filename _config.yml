@@ -2,16 +2,15 @@
 destination: ../austinhay.github.io
 title: Austin A. Hay	
 email: austin@austinhay.com
-description: > 
-  This website and all its content, design and code are ©2014 Austin Hay. Questions, comments, consulting inquiry, or anything else? Shoot me an email.
+description: "AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.austinhay.com/" # the base hostname & protocol for your site
+url: "http://www.austinhay.com" # the base hostname & protocol for your site
 twitter_username: austinahay	
 github_username:  austinhay
 linkedin_username: austinhay
 
 career_title1: "Engineer"
-career_title2: "Biz Ops Analyst"
+career_title2: "Business Ops & Strategy"
 career_title3: "Web-dev Junior Programmer"
 career_title4: "Stanford & USC Grad"
 

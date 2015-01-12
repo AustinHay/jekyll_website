@@ -1,25 +1,32 @@
-/**
- * Site header
- */
-.site-header {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-top: 5px solid $white-color;
-    border-bottom: 1px solid $grey-color-dark;
-    min-height: 56px;
+/* CUSTOM CSS FROM AUSTIN HAY */
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    z-index: 5;
+/* Site header */
+
+.site-header {
+    position:fixed;
+    z-index: 100000;
+    display:inline-block;
+    width:100%;
+    top: 0px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+
+    background-color: rgba(255, 255, 255, 0.90);
+    
+    /** // Positioning context for the mobile navigation icon
+    * position: relative;
+    * z-index: 5;
+    */
 }
 
 
 .site-title {
+
     font-family: 'La Belle Aurore', cursive;
     font-size: 200%;
-    line-height: 56px;
     letter-spacing: -1px;
     float: left;
+    color: #3B3B3B;
 
     &,
     &:visited {
@@ -98,9 +105,8 @@
 
 
 
-/**
- * Site footer
- */
+/* Site footer  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -175,13 +181,7 @@
 }
 
 
-
-
-
-
-/**
- * Homepage Career col content formats
- */
+/* Homepage Career Column Content Formats */
 
 .career-col {
   display: inline;
@@ -260,8 +260,7 @@
       font-size: 36px; } }
 
 .post-content {
-  margin-top: 2%;
-  margin-bottom: 2%; }
+   }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 700px) {
@@ -279,6 +278,7 @@
         font-size: 18px; } }
 
 /* Home Page Elements and Styling */
+
 .home-img-top {
   padding: 0;
   margin: 0;
@@ -295,10 +295,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   
-  box-shadow: 0 5px 20px 0px $grey-color-dark;
-  -webkit-box-shadow: 0 5px 20px 0px $grey-color-dark;
-  -moz-box-shadow: 0 5px 20px 0px $grey-color-dark;
-  -o-box-shadow: 0 5px 20px 0px $grey-color-dark;
+  box-shadow: 0 5px 10px 0px $grey-color-dark;
+  -webkit-box-shadow: 0 5px 10px 0px $grey-color-dark;
+  -moz-box-shadow: 0 5px 10px 0px $grey-color-dark;
+  -o-box-shadow: 0 5px 10px 0px $grey-color-dark;
 
   }
 
