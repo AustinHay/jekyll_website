@@ -4,8 +4,8 @@ title: "XML Sitemap"
 frequency: "daily"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<urlset xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 	<head>
 		<title>{{ page.title }}</title>
