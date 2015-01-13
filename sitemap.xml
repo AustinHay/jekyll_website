@@ -33,39 +33,39 @@ frequency: "daily"
 
   <!-- Main Site --> 
 <tr>
-  	<td><url><loc>http://austinhay.com</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://austinhay.com/about</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/about</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://austinhay.com/notes</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/notes</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://austinhay.com/projects</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/projects</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://austinhay.com/follow</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/follow</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://austinhay.com/contact</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/contact</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
   <!-- Posts -->
   {% for post in site.posts %}
   <tr>
-  	<td><url><loc>http://austinhay.com{{ post.url }}</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com{{ post.url }}</loc></url></td>
     <td><changefreq>{{page.frequency}}</changefreq></td>
   	<td><lastmod>{{ post.date | date_to_xmlschema }}</lastmod></td>
   	
@@ -75,7 +75,7 @@ frequency: "daily"
   <!-- Tag Indexes -->
   {% for tag in site.tags %}
   <tr>
-  		<td><url><loc>http://austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></url></td>
+  		<td><url><loc>http://www.austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></url></td>
   		<td><changefreq>{{page.frequency}}</changefreq></td>
   </tr>
   {% endfor %}
@@ -83,7 +83,7 @@ frequency: "daily"
   <!-- Category Indexes -->
   {% for category in site.categories %}
   <tr>
-  	<td><url><loc>http://austinhay.com/search.html?category={{ category | first | downcase }}</loc></url></td>
+  	<td><url><loc>http://www.austinhay.com/search.html?category={{ category | first | downcase }}</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
   </tr>
   {% endfor %}
