@@ -5,13 +5,11 @@ frequency: "daily"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<link rel="canonical" href="http://austinhay.com/" />
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>
 
 	<head>
 		<title>{{ page.title }}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <link rel="canonical" href="http://austinhay.com/sitemap.xml" />
 		<meta name="robots" content="noindex,follow"></meta>
 		<link rel="stylesheet" href="{{ "/css/xml_sitemap.css" | prepend: site.baseurl }}"></link>
 	</head>
@@ -35,39 +33,39 @@ frequency: "daily"
 
   <!-- Main Site --> 
 <tr>
-  	<td><url><loc>http://www.austinhay.com</loc></url></td>
+  	<td><url><loc>http://austinhay.com</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://www.austinhay.com/about</loc></url></td>
+  	<td><url><loc>http://austinhay.com/about</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://www.austinhay.com/notes</loc></url></td>
+  	<td><url><loc>http://austinhay.com/notes</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://www.austinhay.com/projects</loc></url></td>
+  	<td><url><loc>http://austinhay.com/projects</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://www.austinhay.com/follow</loc></url></td>
+  	<td><url><loc>http://austinhay.com/follow</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
 <tr>
-  	<td><url><loc>http://www.austinhay.com/contact</loc></url></td>
+  	<td><url><loc>http://austinhay.com/contact</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
 </tr>
 
   <!-- Posts -->
   {% for post in site.posts %}
   <tr>
-  	<td><url><loc>http://www.austinhay.com{{ post.url }}</loc></url></td>
+  	<td><url><loc>http://austinhay.com{{ post.url }}</loc></url></td>
     <td><changefreq>{{page.frequency}}</changefreq></td>
   	<td><lastmod>{{ post.date | date_to_xmlschema }}</lastmod></td>
   	
@@ -77,7 +75,7 @@ frequency: "daily"
   <!-- Tag Indexes -->
   {% for tag in site.tags %}
   <tr>
-  		<td><url><loc>http://www.austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></url></td>
+  		<td><url><loc>http://austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></url></td>
   		<td><changefreq>{{page.frequency}}</changefreq></td>
   </tr>
   {% endfor %}
@@ -85,7 +83,7 @@ frequency: "daily"
   <!-- Category Indexes -->
   {% for category in site.categories %}
   <tr>
-  	<td><url><loc>http://www.austinhay.com/search.html?category={{ category | first | downcase }}</loc></url></td>
+  	<td><url><loc>http://austinhay.com/search.html?category={{ category | first | downcase }}</loc></url></td>
   	<td><changefreq>{{page.frequency}}</changefreq></td>
   </tr>
   {% endfor %}
