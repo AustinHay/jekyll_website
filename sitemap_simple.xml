@@ -1,0 +1,55 @@
+---
+layout: null
+title: "XML Sitemap"
+frequency: "daily"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9"
+  url="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="http://austinhay.com/sitemap.xml"/>
+  </head>
+
+  <!-- Main Site --> 
+  <url><loc>http://austinhay.com</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <url><loc>http://austinhay.com/about</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <url><loc>http://austinhay.com/notes</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <url><loc>http://austinhay.com/projects</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <url><loc>http://austinhay.com/follow</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <url><loc>http://austinhay.com/contact</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+
+  <!-- Posts -->
+  {% for post in site.posts %}
+  <url><loc>http://austinhay.com{{ post.url }}</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  {% endfor %}
+
+  <!-- Tag Indexes -->
+  {% for tag in site.tags %}
+    <url><loc>http://austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></url>
+    <changefreq>{{page.frequency}}</changefreq>
+  {% endfor %}
+
+  <!-- Category Indexes -->
+  {% for category in site.categories %}
+  <url><loc>http://austinhay.com/search.html?category={{ category | first | downcase }}</loc></url>
+  <changefreq>{{page.frequency}}</changefreq>
+  {% endfor %}
+</urlset>
