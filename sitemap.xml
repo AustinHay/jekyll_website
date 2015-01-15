@@ -7,6 +7,8 @@ frequency: "daily"
 
 <urlset xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<link rel="canonical" href="http://austinhay.com/" />
+
 	<head>
 		<title>{{ page.title }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
