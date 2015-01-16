@@ -13,7 +13,9 @@
               <h1 class="post-title">{{ page.title }}</h1>
 
               <article class="post-content">
-                {{ content }}</article>
+                {% include post_intro.html %}
+                {{ content }}
+              </article>
 
             </div>
           </div>

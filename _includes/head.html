@@ -26,23 +26,21 @@
     {% endif %}
 
     <!--- Page Type -->
-    {% if page.title %}
-        <meta property="og:type" content="article"/>
-      {% else %}
-        <meta property="og:type" content="website"/>
-    {% endif %}
+   <meta property="og:type" content="website"/> 
 
     <!--- Description -->
+    {% if page.excerpt %}
+      <meta property="og:description" content="{{ page.excerpt }}"/>
+    {% endif %}
+
     {% if page.description %}
-      <meta property="og:description" content="{{ page.description }}"/>
+      <meta property="og:description" content="{{ description }}"/>
     {% else %}
       <meta property="og:description" content="{{ site.meta_description }}"/>
     {% endif %}
 
     <!--- URL -->
-    {% if page.url %}
-      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    {% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
     <!--- Page Category -->
     {% if page.categories %}
@@ -74,10 +72,9 @@
 
     <!-- Images -->
     {% if page.image %}
-        <meta property="og:image" content="{{site.url}}/images/blogs/{{ page.image }}" />
-      {% else %}
-        <meta property="og:image" content="/images/og-images/2014-1.png" />
+    <meta property="og:image" content="{{site.url}}/images/{{ page.image }}" />
     {% endif %}
+    <meta property="og:image" content="{{site.url}}/images/og-images/2014-1.png" />
 
     <!--- OTHER META INFO -->
     <meta property="og:locale" content="en_us"/>

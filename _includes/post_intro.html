@@ -1,0 +1,9 @@
+<p>
+	<span class="category-tag-icon"> {{ page.category }}</span>{% for tag in page.tags %}<span class="category-tag-icon">{{ tag }}</span>{% endfor %}
+</p>
+
+<p>
+	<span class="post-meta">By: {{ page.author }}</span>
+		<br>
+	<span class="post-meta">Published: {{ page.date | date: "%b %-d, %Y" }}</span>
+</p>

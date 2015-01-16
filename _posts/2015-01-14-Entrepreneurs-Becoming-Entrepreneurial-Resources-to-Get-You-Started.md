@@ -10,21 +10,17 @@ tags:
  - strategy
  - leadership
  - good reads
-image: 
+image: blogs/
 ---
-<span class="category-tag-icon">{{ page.category }}</span>{% for tag in page.tags %}<span class="category-tag-icon">{{ tag }}</span>{% endfor %}
-
-<span class="post-meta">By: {{ page.author }}</span>
-<br>
-<span class="post-meta">Published: {{ page.date | date: "%b %-d, %Y" }}</span>
-
+<p>
 <h4><b>I am not an entrepreneur.</b></h4> 
-
+	</br>
 I think the word, at one point in the past, had a unique and meaningful place in the language of US business jargon. But now it's become too out of touch with what it was intended to represent.
-
+	</br>
+	
 <b>Entrepreneurs were those contrarian individuals with grit, determination, clever ideas, and a wacky sense of world paradigms that allowed them to create new, interesting, and risky initiatives that drove measurable change.</b>
-
-<!--more--> 
+</p>
+<!--more-->
 
 I think [Ben Horowitz](http://www.bhorowitz.com/) does a good job of defining the scope of a real entrepeneur. Read "[The Hard Thing About Hard Things](http://techcrunch.com/2014/03/03/the-hard-thing-about-hard-things-ben-horowitzs-honest-and-real-take-on-entrepreneurship/)" to understand his perspective. I agree that if you haven't woken up in the night with a cold sweat worrying about the fudiciary responsibility owed to your [lieutenants](https://about.usc.edu/presidentemeritus/contrarians-guide-to-leadership/) then you probably can't claim ownership of the word. This is why I am not an entrepreneur -- although, one day with a bit of luck and boatload of hard work, I hope to be distinguished enough to reach that pinnacle of impact.
 
