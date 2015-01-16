@@ -1,5 +1,6 @@
 ---
 layout: post
+og-type: article
 title: "Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started"
 date: 2015-01-14
 author: Austin Hay
@@ -10,14 +11,14 @@ tags:
  - strategy
  - leadership
  - good reads
-image: blogs/
+image: og-images/2014-1.png
 ---
 <p>
 <h4><b>I am not an entrepreneur.</b></h4> 
 	</br>
 I think the word, at one point in the past, had a unique and meaningful place in the language of US business jargon. But now it's become too out of touch with what it was intended to represent.
 	</br>
-	
+
 <b>Entrepreneurs were those contrarian individuals with grit, determination, clever ideas, and a wacky sense of world paradigms that allowed them to create new, interesting, and risky initiatives that drove measurable change.</b>
 </p>
 <!--more-->

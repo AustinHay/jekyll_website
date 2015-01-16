@@ -1,6 +1,4 @@
-<html prefix="og: http://ogp.me/ns#"/>
-
-<head>
+<head prefix="og: http://ogp.me/ns#"/>
     <!--- Basic Info -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
@@ -25,17 +23,26 @@
             <meta property="og:title" content="{{ site.title }}"/>
     {% endif %}
 
+    <!-- Images -->
+    {% if page.image %}
+    <meta property="og:image" content="{{site.url}}/images/{{ page.image }}" />
+        {% else %}
+    <meta property="og:image" content="{{site.url}}/images/og-images/2014-1.png" />
+    {% endif %}
+
     <!--- Page Type -->
-   <meta property="og:type" content="website"/> 
+    {% if page.og-type %}
+      <meta property="og:type" content="article"/> 
+    {% else %}
+      <meta property="og:type" content="website"/> 
+    {% endif %}
 
     <!--- Description -->
     {% if page.excerpt %}
-      <meta property="og:description" content="{{ page.excerpt }}"/>
-    {% endif %}
+      <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords:75 }}"/>
 
-    {% if page.description %}
-      <meta property="og:description" content="{{ description }}"/>
     {% else %}
+      <meta property="og:description" content="{{ description }}"/>
       <meta property="og:description" content="{{ site.meta_description }}"/>
     {% endif %}
 
@@ -69,12 +76,6 @@
         {% else %}
             <meta property="article:section" content="Austin Hay"/>
     {% endif %}
-
-    <!-- Images -->
-    {% if page.image %}
-    <meta property="og:image" content="{{site.url}}/images/{{ page.image }}" />
-    {% endif %}
-    <meta property="og:image" content="{{site.url}}/images/og-images/2014-1.png" />
 
     <!--- OTHER META INFO -->
     <meta property="og:locale" content="en_us"/>
@@ -124,5 +125,3 @@ $(document).ready(function(){
 </script>
 
 </head>
-
-
