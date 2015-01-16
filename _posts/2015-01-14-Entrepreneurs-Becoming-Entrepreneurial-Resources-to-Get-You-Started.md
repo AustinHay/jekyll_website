@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started"
-permalink: Entrepreneurship-and-Becoming-Entrepreneurial
 date: 2015-01-14
 author: Austin Hay
 category: "entrepreneurship"
