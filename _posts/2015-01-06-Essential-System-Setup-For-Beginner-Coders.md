@@ -1,6 +1,7 @@
 ---
 layout: md_post
 title: "The Essential System Setup for Beginner Coders"
+permalink: The-Essential-System-Setup-for-Beginner-Coders
 date: 2015-01-06
 author: Austin Hay
 category: "coding"

@@ -1,6 +1,7 @@
 ---
 layout: md_post
 title: "Prepping for Django"
+permalink: Prepping-for-Django
 date: 2015-01-05
 author: Austin Hay
 category: "coding"

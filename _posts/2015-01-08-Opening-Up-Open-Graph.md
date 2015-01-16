@@ -1,6 +1,7 @@
 ---
 layout: md_post
 title: "Opening Up Open Graph"
+permalink: Opening-Up-Open-Graph
 date: 2015-01-08
 author: Austin Hay
 category: "coding"
