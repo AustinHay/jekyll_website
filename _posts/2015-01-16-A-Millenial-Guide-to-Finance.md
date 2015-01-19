@@ -18,7 +18,7 @@ tags:
 image: blogs/millenial-guide-to-finance-3.png
 ---
 <p>
-So you've just graduated from college (or grad school). You have $40,000 in loans and don't know whether it's better to pay it now or in small increments so that you can begin the coveted journey of "saving". You have limited investment knowledge, but know that 2015 is the year you need to change. Stock basics? Sure, you own 15 shares of a company or two. Bank account, brokerage account, trading account? Yup. You have them, but hardly use them.
+So you've just graduated from college (or grad school). You have $40,000 in loans and don't know whether it's better to pay it now or in small increments so that you can begin the coveted journey of 'saving'. You have limited investment knowledge, but know that 2015 is the year you need to change. Stock basics? Sure, you own 15 shares of a company or two. Bank account, brokerage account, trading account? Yup. You have them, but hardly use them.
 </p>
 <!--more-->
 
