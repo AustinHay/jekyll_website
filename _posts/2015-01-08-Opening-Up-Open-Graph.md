@@ -9,7 +9,7 @@ tags:
  - web-development
  - software
  - blogging essentials
-image: "blogs/open-graph-ex-2.png"
+image: blogs/open-graph-ex-2.png
 ---
 
 As I've dug deeper into how content is displayed across the web, I've found that it's not always as rosy as I'd like. A big problem is that I am a total ```n00b``` and don't always get my code just right when writing up my thoughts. In turn this means my pages don't always display correctly across different applicaitons like Facebook or Linked-In. 
