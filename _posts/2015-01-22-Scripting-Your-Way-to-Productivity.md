@@ -14,18 +14,20 @@ tags:
 image: blogs/teis/[PHOTO].jpg
 ---
 
-When I set out to learn to code last year, I had no real understanding of how simple web-development languages might increase my productivity and efficiency in my daily routine. In all honesty, I didn't really have a clue about the power of computers and I was just eager to learn more of what was going on under the hood. But as an engineer and somebody with a background and love of technology, I really believed that I was maxing out my returns on my existing computer knowledge. In hindsight, I could not have been more wrong. Learning to code over the last several months has empowered me not only to develop a new career trajectory, but to excel in my business operations role. It's allowed me to do things faster, better, and more efficiently. 
+When I set out to learn to code last year, I had no real understanding of how simple web-development languages might increase my productivity and efficiency in my daily routine. In all honesty, I was just eager to learn more of what was going on under the hood of my computer. But as an engineer and somebody with a background and love of technology, I actually believed that I was maxing out my returns on my existing computer knowledge. In hindsight, I could not have been more wrong. Learning to code over the last several months has empowered me not only to develop a new career trajectory, but to excel as a business operator. It's allowed me to do things faster, better, and more efficiently. 
 <!--more-->
 
 <a href="https://www.google.com/search?q=scripting">
 	<img class="imageright" src="/images/blogs/scripting-productivity-1.png">
 </a>
 
-For me, coding has taken many forms, but one element -- scripting -- has proven to be the gold-mine of skill-building. [Scripting](http://en.wikipedia.org/wiki/Scripting_language) is fundamentally the process of automating and executing tasks that, alternatively, would have to be performed by hand. Scripting is awesome because it allows you to take your knowledge of any language you are comfortable with and build robust tasks that automate the things you spend countless hours on everyday. What's more important is that scripting is not just a great tool for coders -- it's an essential skill for business people, artists, professors and anyone else who uses a computer to do their daily work. 
+For me, coding has taken many forms, but one element -- scripting -- has proven to be the gold-mine of skill-building. [Scripting](http://en.wikipedia.org/wiki/Scripting_language) is fundamentally the process of automating and executing tasks that, alternatively, would have to be performed by hand. Think of how many things you do manually every day. Setting up those meeting notes? Scheduling those emails? Transferring small tidbits of data from one excel sheet to another. Sometimes these are essential details of any role. But wouldn't it be great to invest some additional time upfront to never have to worry about it again. 
 
-Some of these [high-level biz ops tasks](http://www.eweek.com/c/a/Enterprise-Applications/How-to-Save-Time-and-Money-using-Scripting-Technology) can be identified easily. But really, you should be thinking about how learning computer programming -- and therein investing tons of upfront hours -- can actually increase your performance at work, improve your time flexibility, and cut away the mundane tasks that you might encounter in the day-to-day. 
+ Scripting is awesome because it allows you to do this! It lets you take new or existing knowledge of any computer language and build robust tasks that automate the things you spend countless hours on every week. What's more important is that scripting is not just a great tool for coders -- it's an essential skill for business people, students, blue-collars, white-collars, artists, professors, parents and anyone else who uses a computer to do their daily work. 
 
-Let me give you some examples of how I have used scripting to improve my work flow and become a more efficient operator.
+Some of these [high-level biz ops tasks](http://www.eweek.com/c/a/Enterprise-Applications/How-to-Save-Time-and-Money-using-Scripting-Technology) can be identified easily. But really, you should be thinking about how learning computer programming -- and therein investing many upfront hours -- can actually increase your performance at work, improve your time flexibility, and cut away the mundane tasks that you might encounter. 
+
+To further this picture, let me give you some examples of how I have used scripting to improve my work flow and become a more efficient operator.
 
 Case 1: Personal Use -- A Simple Script to Randomly Select and Move Photos
 

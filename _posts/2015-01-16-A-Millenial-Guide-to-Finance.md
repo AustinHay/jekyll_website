@@ -92,7 +92,7 @@ This always seems like the next step after you've taken the time to read and lea
 
 <b>1. Consolidate you cash and streamline your liquidity.</b> What this means is to get your money together from all of the accounts you have and develop a game-plan of how you hope to invest. Streamlining your liquidity means getting your processes down so that you can convert assets into cash easily.
 
-<b>2. Develope a strategy and STRUCTURE.</b> Every sound financial plan has structure. My suggestion is this:
+<b>2. Develop a strategy and STRUCTURE.</b> Every sound financial plan has structure. My suggestion is this:
 
 *  <b>25%-35%</b> of your income and assets in bank checking and savings accounts for daily use, a rainy day, emergencies, vacations and fun.
 

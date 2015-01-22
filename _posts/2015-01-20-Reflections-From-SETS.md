@@ -33,7 +33,7 @@ What did I get out of the experience, exactly? Why was SETS so life-changing? We
 
 	* General Electric Global Research
 	* InfoSys Consulting
-	* [Embrace](http://embraceglobal.org/) -- which was actually a product of [Stanford Extreme]!(http://extreme.stanford.edu)
+	* [Embrace](http://embraceglobal.org/) -- which was actually a product of [Stanford Extreme](http://extreme.stanford.edu)!
 	* Microsoft Ventures 
 	* Zipdial -- recently [acquired](https://blog.twitter.com/2015/bringing-twitter-to-more-people-around-the-world) by Twitter for $40M.
 	* NASSCOM
@@ -42,7 +42,7 @@ What did I get out of the experience, exactly? Why was SETS so life-changing? We
 	* [The Unique Authentication Authority of India](http://uidai.gov.in/auth.html) -- home of the incredible Aadhaar authentication process.
 	* The Times Internet Division
 
-* The challenges of developing countries comes into focus: Poverty,infrastructure, education, a risiing middle class, political strife, and growing civil rights for women, minorities, and the underserved. It was difficult to walk through the crowded streets of cities like Beijing and Bangalore, feel the development occuring, and not take notice of the stark contrasts.
+* The challenges of developing countries comes into focus: Poverty, infrastructure, education, a risiing middle class, political strife, and growing civil rights for women, minorities, and the underserved. It was difficult to walk through the crowded streets of cities like Beijing and Bangalore, feel the development occuring, and not take notice of the stark contrasts.
 
 When I came back from China, I felt changed. Then, again over a year later, going to India with the same program and the same goals, I also came away feeling like a different person than when I had taken off from California.
 
@@ -65,6 +65,6 @@ My experiences with SETS gave me an unwavering sense of global perspective -- I 
 
 Lastly, I realized how similar I was to so many others around the world. I fell in love with countries of the East, the opportunities that exist there, and the people that make these locations so incredible. 
 
-If you're a Stanford student you can and should become involved in this once-in-a-lifetime opportunity. This might be the best chance you'll ever get to explore an incredible side of the worldy. Learn more [here](http://engineering.stanford.edu/portals/student/global-engineering-programs/sets).
+If you're a Stanford student you can and should become involved in this once-in-a-lifetime opportunity. This might be the best chance you'll ever get to explore an incredible side of the world. Learn more [here](http://engineering.stanford.edu/portals/student/global-engineering-programs/sets).
 
 
