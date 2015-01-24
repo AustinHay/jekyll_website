@@ -2,7 +2,7 @@
 layout: post
 og-type: article
 title: "Scripting Your Way to Productivity"
-date: 2015-01-22
+date: 2015-01-24
 author: Austin Hay
 category: "coding"
 excerpt_separator: <!--more-->
@@ -48,7 +48,7 @@ So after doing this task by hand for a while, I finally decided to build a small
 
 Here's a quick snippet of what the script ended up looking like:
 
-<img class="imageleft-1" src="/images/blogs/scripting-productivity-2.png">
+<img src="/images/blogs/scripting-productivity-2.png">
 
 The script was actually very easy to build. You see, the thing about high-level languages today is that there are incredible libraries that support the work you're doing. For Ruby, there is a ```fileutils gem``` that allows you to operate command line functions from a script. You can even add ```chmod``` characterization and run it as a ```shell script```. In essence, this allows you to create double-click functions that perform WHATEVER YOU WANT!!!
 
@@ -64,7 +64,7 @@ The more I thought about it, the more I realized that this did NOT have to be th
 
 Here's a quick look at the script:
 
-<img class="imageleft-1" src="/images/blogs/scripting-productivity-3.png">
+<img src="/images/blogs/scripting-productivity-3.png">
 
 ### <b>Scripting ROI</b> ###
 
