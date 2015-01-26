@@ -1,20 +1,17 @@
 ---
-layout: md_post
+layout: post
 title: "Working Through the Django Tutorial: Outline &amp; Takeaways Part 1"
 date: 2015-01-04
 author: Austin Hay
-category: "coding"
+category: "Coding"
 excerpt_separator: <!--more-->
 tags:
- - web-development
- - django
- - python
- - software
- - documentation breakdown
+ - Web Development
+ - Django
+ - Python
+ - Software
+ - Documentation Breakdown
 ---
-
-------------------------------------------------------------
-
 
 In order to better familiarize myself with Django I decided to work through the Django simple app tutorial which allows you to create a "polls" app. The walkthrough can be found on Django docs [here](https://docs.djangoproject.com/en/1.7/intro/tutorial01/). 
 <!--more-->

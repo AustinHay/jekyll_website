@@ -12,10 +12,10 @@ linkedin_username: austinhay
 
 career_title1: "Engineer"
 career_title2: "Business Ops & Strategy"
-career_title3: "Web-dev Junior Programmer"
+career_title3: "Junior Programmer"
 career_title4: "Stanford & USC Grad"
 
-career_descriptors: "Engineering Management, Business Operations & Development, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship"
+career_descriptors: "Engineering Management, Business Operations & Development, Analytics, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship"
 
 language_descriptors: "I code in...  Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra."
 # Build settings

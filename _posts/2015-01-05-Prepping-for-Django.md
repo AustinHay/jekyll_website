@@ -1,15 +1,16 @@
 ---
-layout: md_post
+layout: post
 title: "Prepping for Django"
 date: 2015-01-05
 author: Austin Hay
-category: "coding"
+category: "Coding"
 excerpt_separator: <!--more-->
 tags:
- - web-development
- - django
- - python
- - software
+ - Web Development
+ - Django
+ - Python
+ - Software
+image: https://media.licdn.com/media/p/2/005/0a3/019/1fbd870.png
 ---
 
 In my free time I've been trying to dive deeper into alternative web-frameworks and coding languages. Python has been my primary target for its ease-of-use and ubiquity among the web's top development languages. 

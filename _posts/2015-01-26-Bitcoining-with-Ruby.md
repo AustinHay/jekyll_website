@@ -1,19 +1,19 @@
-<!-- 
+---
 layout: post
 og-type: article
 title: "Bitcoining with Ruby"
 date: 2015-01-26
 author: Austin Hay
-category: "coding"
-excerpt_separator: 
+category: "Coding"
+excerpt_separator: <!--more-->
 tags:
- - bitcoin
- - ruby
- - software
+ - Bitcoin
+ - Ruby
+ - Software
  - Coinbase
  - API
 image: blogs/coinbase-with-ruby-4.png
- -->
+---
 
 With all the news about bitcoin these days, it's hard not to think about working with the developer platforms that power access to the currency. [Coinbase](http://coinbase.com) is one well known bitcoin platform that totally rocks and recently [raised $75M](http://dealbook.nytimes.com/2015/01/20/coinbase-a-bitcoin-start-up-raises-75-million-in-vote-of-confidence/?_r=0) in funding to grow their base. From my perspective this looks like a great starting point to learn how to plug into a bitcoin developer API -- and that's exactly what I explored earlier this week.
 <!--more-->

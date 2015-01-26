@@ -1,15 +1,15 @@
 ---
-layout: md_post
+layout: post
 title: "The Essential System Setup for Beginner Coders"
 date: 2015-01-06
 author: Austin Hay
-category: "coding"
+category: "Coding"
 excerpt_separator: <!--more-->
 tags:
- - web-development
- - software
- - system setup
- - rookie tricks
+ - Web Development
+ - Software
+ - System Setup
+ - Life Lessons
 ---
 
 The other day I got setup on a new machine and I found myself scratching my head. How the heck did I get Ruby, Rails, Python and all those other tools set up? My command line tools weren't even accessible. I am guessing this realization isn't new to anyone in programming, but it was a new phenomenon to me. I decided the best solution was to draft up a short list of all the items I needed to install and how I would install them. For newbies looking to dive into coding, this should serve as a perfect checklist when getting your machine set up. Enjoy!

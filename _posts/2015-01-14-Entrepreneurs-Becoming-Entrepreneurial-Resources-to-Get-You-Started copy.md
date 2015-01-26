@@ -4,13 +4,13 @@ og-type: article
 title: "Entrepreneurs, Becoming Entrepreneurial, and Resources to Get You Started"
 date: 2015-01-14
 author: Austin Hay
-category: "entrepreneurship"
+category: "Entrepreneurship"
 excerpt_separator: <!--more-->
 tags:
- - self-development
- - strategy
- - leadership
- - good reads
+ - Self Development
+ - Strategy
+ - Leadership
+ - Good Reads
 image: og-images/2014-1.png
 ---
 <p>

@@ -4,15 +4,17 @@ og-type: article
 title: "Reflections from Two Summers with Stanford's Technology & Entpreneurship Programs"
 date: 2015-01-20
 author: Austin Hay
-category: "personal development"
+category: "Personal Development"
 excerpt_separator: <!--more-->
 tags:
  - Travel
  - Reflections
  - Global Perspective
  - TEIS
+ - TECS
  - SETS
  - India
+ - China
  - Stanford
 image: blogs/teis/india-photo-11.jpg
 ---

@@ -4,17 +4,17 @@ og-type: article
 title: "For My Friends: A Millenial Guide to Finance"
 date: 2015-01-18
 author: Austin Hay
-category: "personal finance"
+category: "Finance"
 excerpt_separator: <!--more-->
 tags:
- - investing
- - strategy
- - life-tools
- - personal development
- - banking
- - stocks
- - retirement planning
- - good reads
+ - Investing
+ - Strategy
+ - Life-tools
+ - Personal development
+ - Banking
+ - Stocks
+ - Retirement Planning
+ - Good Reads
 image: blogs/millenial-guide-to-finance-3.png
 ---
 <p>

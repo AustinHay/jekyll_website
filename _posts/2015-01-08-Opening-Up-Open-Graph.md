@@ -1,14 +1,14 @@
 ---
-layout: md_post
+layout: post
 title: "Opening Up Open Graph"
 date: 2015-01-08
 author: Austin Hay
-category: "coding"
+category: "Coding"
 excerpt_separator: <!--more-->
 tags:
- - web-development
- - software
- - blogging essentials
+ - Web Development
+ - Software
+ - Blogging Essentials
 image: blogs/open-graph-ex-2.png
 ---
 

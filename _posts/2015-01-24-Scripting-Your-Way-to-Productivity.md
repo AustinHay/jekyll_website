@@ -4,13 +4,13 @@ og-type: article
 title: "Scripting Your Way to Productivity"
 date: 2015-01-24
 author: Austin Hay
-category: "coding"
+category: "Coding"
 excerpt_separator: <!--more-->
 tags:
- - scripting
- - web-development
- - software
- - business productivity
+ - Scripting
+ - Web-development
+ - Software
+ - Business Productivity
 image: blogs/teis/scripting-productivity-2.png
 ---
 
