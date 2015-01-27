@@ -4,104 +4,56 @@ title: "XML Sitemap"
 frequency: "daily"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<link rel="canonical" href="http://austinhay.com/" />
-
-	<head>
-		<title>{{ page.title }}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-		<meta name="robots" content="noindex,follow"></meta>
-		<link rel="stylesheet" href="{{ "/css/xml_sitemap.css" | prepend: site.baseurl }}"></link>
-	</head>
-<html>	
-    <body>
-		<h1 xmlns=""><b>{{page.title}}</b></h1>
-		<div xmlns="" id="intro"><p>
-                This is a XML Sitemap which is supposed to be processed by search engines which follow the XML Sitemap standard like Ask.com, Bing, Google and Yahoo.</p>
-        </div>
-
-<div xmlns="">
-  <table>
-	<tbody>
-	  <tr>
-		<th>URL</th>
-		<th>Change Frequency</th>
-		<th>Date</th>
-	  </tr>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9"
+  url="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Main Site --> 
-<tr>
-  	<td><url><loc>http://www.austinhay.com</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
-<tr>
-  	<td><url><loc>http://www.austinhay.com/about</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com/about</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
-<tr>
-  	<td><url><loc>http://www.austinhay.com/notes</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com/notes</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
-<tr>
-  	<td><url><loc>http://www.austinhay.com/projects</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com/projects</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
-<tr>
-  	<td><url><loc>http://www.austinhay.com/follow</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com/follow</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
-<tr>
-  	<td><url><loc>http://www.austinhay.com/contact</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-</tr>
+  <url><loc>http://austinhay.com/contact</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
 
   <!-- Posts -->
   {% for post in site.posts %}
-  <tr>
-  	<td><url><loc>http://www.austinhay.com{{ post.url }}</loc></td>
-    <td><changefreq>{{page.frequency}}</changefreq></td>
-  	<td><lastmod>{{ post.date | date_to_xmlschema }}</lastmod></td>
-    </url>
-  </tr>
+  <url><loc>http://austinhay.com{{ post.url }}</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
   {% endfor %}
 
   <!-- Tag Indexes -->
   {% for tag in site.tags %}
-  <tr>
-  		<td><url><loc>http://www.austinhay.com/search.html?tags={{ tag | first | downcase }}</loc></td>
-  		<td><changefreq>{{page.frequency}}</changefreq></td>
-      </url>
-  </tr>
+    <url><loc>http://austinhay.com/search.html?tags={{ tag | first | downcase }}</loc>
+    <changefreq>{{page.frequency}}</changefreq>
+    </url>
   {% endfor %}
 
   <!-- Category Indexes -->
   {% for category in site.categories %}
-  <tr>
-  	<td><url><loc>http://www.austinhay.com/search.html?category={{ category | first | downcase }}</loc></td>
-  	<td><changefreq>{{page.frequency}}</changefreq></td>
-    </url>
-  </tr>
+  <url><loc>http://austinhay.com/search.html?category={{ category | first | downcase }}</loc>
+  <changefreq>{{page.frequency}}</changefreq>
+  </url>
   {% endfor %}
-
-
-	</tbody>
-  </table>
-</div>
-
-</body>
-</html>
-
 </urlset>
