@@ -11,7 +11,7 @@
     padding-top: 7px;
     padding-bottom: 4px;
 
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 1.00);
     
     /** // Positioning context for the mobile navigation icon
     * position: relative;
@@ -576,7 +576,13 @@
   margin: 0 0 20px 25px;
   padding-left: 25px;
   max-width: 500px;
-  border-left: 1px solid #cccccc; }
+  border-left: 1px solid #cccccc;
+
+  /* CAPTION TEXT */
+    font-size: 70%;
+    font-style: italic;
+
+  }
 
 .imageleft {
   float: left;
@@ -584,13 +590,21 @@
   margin: 0 25px 20px 0;
   padding-right: 25px;
   max-width: 500px;
-  border-right: 1px solid #cccccc; }
+  border-right: 1px solid #cccccc; 
+
+  /* CAPTION TEXT */
+    font-size: 70%;
+    font-style: italic;
+
+  }
 
 .imageright-1 {
+    float: right;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
     margin: 1%;
-    max-width: 20%;
+    max-width: 40%;
     height: auto;
     vertical-align: middle;
     border: 1px solid #828282;
@@ -604,15 +618,21 @@
     -webkit-border-radius: 2.25px;
     -moz-border-radius: 2.25px;
     -o-border-radius: 2.25px; 
+
+    /* CAPTION TEXT */
+    font-size: 70%;
+    font-style: italic;
+
 }
 
 
-.imageleft-2 {
+.imageleft-1 {
+    float: left;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
     margin: 1%;
-    max-width: 20%;
-    height: auto;
+    max-width: 40%;
     vertical-align: middle;
     border: 1px solid #828282;
 
@@ -625,6 +645,10 @@
     -webkit-border-radius: 2.25px;
     -moz-border-radius: 2.25px;
     -o-border-radius: 2.25px; 
+
+    /* CAPTION TEXT */
+    font-size: 70%;
+    font-style: italic;
 
 }
 
