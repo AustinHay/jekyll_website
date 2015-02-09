@@ -2,7 +2,7 @@
 layout: post
 og-type: article
 title: "What is Deep Linking?"
-date: 2015-02-04
+date: 2015-02-06
 author: Austin Hay
 category: "Coding"
 excerpt_separator: <!--more-->
@@ -11,7 +11,7 @@ tags:
  - Software
  - Web-development
  - Technology
-image: blogs/XXX.png
+image: blogs/what-is-deep-linking-1.png
 ---
 
 Deep linking has been one of the most talked about trends in tech throughout the last year, but not everyone fully understands what it is and how it can transform mobile. Look no further -- this is a quick guide on what you need to know about mobile deep linking.
@@ -29,7 +29,7 @@ Most stories focus on the promise of deep linking to provide HTTP-like functiona
 What really are the benefits of deep linking? The technology helps app developers, marketers and users in a number of ways. Specifically, deep linking can:
 
 <figure class="imageleft-1">
-	<a href=""><img src="/images/blogs/what-is-deep-linking-1.png"></a>
+	<a href="http://branch.io"><img src="/images/blogs/what-is-deep-linking-1.png"></a>
 	Branch Metrics is one deep linking startup that is delivering on the promises of the technology. They've built a custom SDK and API that provides a way for developers to easily integrate deep linking into their core app, and build robust referral & conversion platforms. 
 </figure>
 
@@ -56,7 +56,7 @@ Now that we've covered the landscape of deep linking and you have an idea of the
 In programming, a URI (Uniform Resource Identifier) is just a string of characters to identify the name of a resource on a network. URIs allows users to identify and interact with the resource representation over a network using specific protocols. <b>The most common URI out there is the URL, a [Uniform Resource Locator](http://en.wikipedia.org/wiki/Uniform_resource_locator) -- or more simply, a web address.</b> URIs are not not limited to just this. URIs can also be comprised of URNs (Uniform Resource Name). In practice a URN functions as a web resource's "name" while the URL functions as its address. If you're not sold on their differences, take a look [here](http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url).
 
 <figure class="imageleft">
-	<a href=""><img src="/images/blogs/what-is-deep-linking-2.png"></a>
+	<a href="http://sarlitt.me/what-is-app-deep-linking/"><img src="/images/blogs/what-is-deep-linking-2.png"></a>
 	This simple visual from Michael Sarlitt shows the primary differences between web and native apps. Check out his full post for a developer focused intro to deep linking. 
 </figure>
 
@@ -83,7 +83,7 @@ Some simple examples help demonstrate the point...
   * ```YouTube://``` This is the iOS URI to launch YouTube's Mobile app
 
 <figure class="imageright">
-	<a href=""><img src="/images/blogs/what-is-deep-linking-3.png"></a>
+	<a href="http://sarlitt.me/what-is-app-deep-linking/"><img src="/images/blogs/what-is-deep-linking-3.png"></a>
 	This is another awesome visual from Michael Sarlitt showing how deep links can redirect users to highly specific in-app content from any ad, but especially mobile and web ads. Check out his post on deeplinking for a more developer-focused overview. If you're interested in implementing this type of behavior check out the options up top. Currently <a href="http://branch.io">Branch Metrics</a> seems like the best option to handle this type of action and they pass data through install as well, which opens up a whole world of possibilities for UX.
 </figure>
 
