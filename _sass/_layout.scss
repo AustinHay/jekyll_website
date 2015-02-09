@@ -286,10 +286,21 @@
   height: cover;
   width: auto;
   text-align: center;
-  vertical-align: middle;
-  background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
-  overflow: hidden; 
   min-height: 100%; 
+  vertical-align: middle;
+
+  background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -webkit-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -moz-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  -o-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
+  
+  overflow: hidden;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -o-overflow: hidden;
+
+
+  
   
   background-size: cover;
   -webkit-background-size: cover;
@@ -519,7 +530,14 @@
   z-index: 0;
   vertical-align: middle;
   background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -webkit-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -moz-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+  -o-background: url(/images/post-backgrounds/4.jpg) no-repeat center center fixed;
+
   overflow: hidden;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -o-overflow: hidden;
 
   background-size: cover;
   -webkit-background-size: cover;
@@ -556,7 +574,7 @@
 .about-text {
   font-weight: 200; }
 
-.notes-background-img {
+.blog-background-img {
   height: cover;
   width: auto;
   z-index: 0;

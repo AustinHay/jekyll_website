@@ -95,4 +95,4 @@ The greatest benefit of mobile deep linking is the fact that it allows app devel
 
 In turn this type of technology has the potential to increase the ad market across mobile and web, better manage download traffic, bring context to the core content of an app, drive conversions, and ultimately, index all the content on an app for a more intuitive and functional search. 
 
-Whether you've experienced the pains of app growth without deep linking or if you've just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If [mobile is eating the world](https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest) then deep linking is head of the table.
+Whether you've experienced the pains of app growth without deep linking or if you've just heard the term flung around at the lunch table, deep linking is worth knowing about and understanding. If [mobile is eating the world](https://soundcloud.com/a16z/a16z-podcast-mobile-is-eating-the-world-and-apple-is-gobbling-fastest) then deep linking is at the head of the table.

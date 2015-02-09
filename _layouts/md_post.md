@@ -6,7 +6,7 @@
   <body>
     {% include header.html %}
 
-          <div class="notes-background-img">
+          <div class="blog-background-img">
           
             <div class="wrapper transparent-background post-content">
             
