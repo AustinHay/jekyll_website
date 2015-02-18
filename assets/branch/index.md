@@ -7,7 +7,7 @@ layout: default
 Branch Assets
 =============
 
-1. [Mobile-Pagerank-Podcast.md]({{site.url}}/assets/branch/Mobile-Pagerank-Podcast.md)
+1. [Mobile-Pagerank-Podcast.md](Mobile-Pagerank-Podcast.md)
 
 2.
 
