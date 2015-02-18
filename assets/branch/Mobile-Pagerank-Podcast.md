@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Branch Podcasts | Mobile Strategy
 ===================================
 
