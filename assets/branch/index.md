@@ -13,12 +13,5 @@ This is just a collection of Branch assets that I don't really know where to pla
 
 2. [Social Media Rules of the Road](Social-Media-ROR.md)
 
-3.
+3. [Professional Development Goals](professional-dev-goals-2015.md)
 
-4.
-
-5.
-
-6.
-
-7.
