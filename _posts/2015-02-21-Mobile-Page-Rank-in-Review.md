@@ -1,7 +1,7 @@
 ---
 layout: post
 og-type: article
-title: "Mobile Page Rank - Podcast Review"
+title: "Mobile Page Rank in Review"
 date: 2015-02-21
 author: Austin Hay
 category: "Branch"
@@ -13,7 +13,7 @@ tags:
 - Page Rank
 - Native
 
-image: blogs/
+image: blogs/branch/mobile-page-rank-1.jpg
 ---
 
 Earlier this year in a [podcast](https://soundcloud.com/a16z/a16z-podcast-searching-for) titled "Searching for Mobile's Own Pagerank" by [Balaji S.](https://twitter.com/balajis), [Chris Dixon](http://cdixon.org/) and [Benedict Evans](http://ben-evans.com/) discuss the fact that a mobile pagerank really doesn't exist and where the future of native vs. mobile apps might be headed. Many of the questions they pose center on mobile as an ecosystem that Evans' likes to describe as a "swirling mass."

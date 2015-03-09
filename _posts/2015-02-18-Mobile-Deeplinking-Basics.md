@@ -100,7 +100,7 @@ Another big problem with deeplinking is that it can't carry data through the app
 
 A simple example demonstrates the point. If I pull out my phone and search for something -- let's just say "Branch Decor pinterest" ;) -- then I am immediately brought to web results from Google. Let's assume I'm interested in finding hits on Pinterest. I navigate to the first link, which properly captures these hits. You'll notice that now I am routed to Pinterest's mobile site. After a few seconds a popup recommend's that I open the Pinterest App.
 
-<figure class="imageleft">
+<figure class="imageright" style="margin-bottom:2%">
 <img src="/images/blogs/branch/mobile-deeplinking-basics-3.png">
 </a>
   <p style="font-style: italic; padding-top: 4%;">
@@ -120,9 +120,7 @@ At this point a few things are going on. First, Pinterest wants to drive me to t
 </figure>
 
 In the current architecture of mobile, I am met with a "Cannot Open Page" error -- this is because I had previously downloaded the app, so Pinterest thinks I still have the native app saved on my device. Once it realizes I don't, it redirects me to the App Store where I am prompted to download the Pinterest App. 
-<br>
-<br>
-<br>
+
 <b>Okay. That's not that big of a deal right? Well, actually, yes it is. In a world where [over 60% of users drop off less then 24 hours after download](http://andrewchen.co/mobile-retention-benchmarks-for-2014-vs-2013-show-a-50-drop-in-d1-retention-guest-post/) you've just provided the user's first experience migrating to the native app as an error message. The old saying "First Impressions Matter" is still around for a reason. And in the world of deeplinking, this rings clearer than ever before.</b>
 
 So how does the story end?
@@ -131,9 +129,8 @@ So how does the story end?
 <img src="/images/blogs/branch/mobile-deeplinking-basics-5.png">
 </a>
   <p style="font-style: italic; padding-top: 4%;">
-	<b>Left:</b> No Branch links are employed, so after this arduous and broken process, the user ends up logging in to Pinterest and is directed to the main homepage, wondering why they can't access the original content on which they clicked. 
-
-    <br>
+	<b>Left:</b> No Branch links are employed, so after this arduous and broken process, the user ends up logging in to Pinterest and is directed to the main homepage, wondering why they can't access the original content on which they clicked.<br>
+  <br>
     <b>Right:</b> Branch links are integrated. The user's data is passed through the install process. Not only did they not hit that pesky error message, but they were automatically, and quickly redirected to the correct App Store and fingerprinted for Pinterest. Now when they open up the app, they are brought right to the content they were looking for. No hacks, no gimmicks, no error messages. UX the way deeplinking intended.
   </p>
 </figure>

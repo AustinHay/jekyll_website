@@ -1,8 +1,8 @@
 ---
 layout: post
 og-type: article
-title: "Big Announcment with Branch"
-date: 2015-02-23
+title: "A Big Announcement via Branch Metrics"
+date: 2015-02-26
 author: Austin Hay
 category: "Branch"
 excerpt_separator: <!--more-->
