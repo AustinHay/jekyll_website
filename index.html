@@ -3,7 +3,15 @@ layout: homepage
 ---
 
 <div class="home">
-        <h1 class="page-heading"><b>The Latest</b></h1>
+        <h1 class="page-heading"><b>Podcasts</b></h1>
+        
+        <p>Occassionally, I help curate podcasts at Branch Metrics. We discuss everything mobile, app growth, deeplinking, the native ecosystem, &amp; the developer experience.
+        </p>
+
+        {% include branch_podcasts.html %}
+
+        <h1 class="page-heading"><b>Latest Blogs</b></h1>
+
         {% for post in site.posts limit:1 %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
@@ -13,7 +21,7 @@ layout: homepage
         {% endfor %}
 
   <ul class="post-list">
-        <h1 class="page-heading">A Few More...</h1>
+        <!-- <h1 class="page-heading">A Few More...</h1> -->
     {% for post in site.posts offset:1 limit: 5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
