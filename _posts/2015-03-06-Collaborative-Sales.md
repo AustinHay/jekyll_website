@@ -23,7 +23,7 @@ Everyone has felt quota anxiety - that feeling you get when your sales lead puts
 Everyone who's seen Glengarry Glen Ross knows Alec Baldwin's infamous Art of Selling scene in which he breaks down sales into a contest - 3rd prize is that you're fired. Baldwin goes on to make some seemingly ridiculous quotes: "Leads are weak? You're weak." Sprinkled in are notes of sexism and the punch-line... Always be closing.
 
 <div class="imageleft">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/zCf46yHIzSo" frameborder="0" allowfullscreen></iframe>
+<iframe width="500px" height="320px" src="https://www.youtube.com/embed/zCf46yHIzSo" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Sales teams often walk far too close to this comical distopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you're still left with the toxic undertones created by hyper-competitive sales. Sales competition not only leads to [destructive behaviors](http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/) that can tear the sales org apart, but it's now being questioned as the [best practice](http://enterprise-gamification.com/index.php?option=com_content&view=article&id=197:9-reasons-why-competition-is-bad-for-sales&catid=10&Itemid=16&lang=en) in driving effective sales.
@@ -32,7 +32,7 @@ This is not to say that some competition isn't healthy. Competitive sales has be
 
 In fact, for high-tech companies that work very closely with developers in growing their organization through the installation of SDKs or other drop in code, collaborative sales is the key to success. Github speaks to this in a recent podcast:
 
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194421673&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194421673&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 ### My Perception: The Problem With Sales Competition ###
 
