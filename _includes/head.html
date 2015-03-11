@@ -10,7 +10,27 @@
           {{ site.title }}
       {% endif %}
     </title>
-    
+
+<!--- Generate Domain Keywords -->
+{% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+{% assign domain_keyword_categories = site_categories | split:', ' | sort %}
+
+{% assign domain_keyword_tags = site_tags | split:', ' | sort %}
+
+<!--- Generate Page-Specific Keywords -->
+{% capture page_tags %}{% for tag in page.tags %}{{tag}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+    <!--- Keywords (Categories & Tags) -->
+    {% if page.tags %}
+            <meta name="keywords" content="{{page.categories}},{{page_tags}}"/>
+        {% else %}
+            <meta name="keywords" content="{{domain_keyword_categories}},{{domain_keyword_tags}}"/>
+            
+    {% endif %}
+ 
     <!--- OPEN GRAPH DATA -->
 
     <!--- Site Name -->

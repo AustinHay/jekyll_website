@@ -1,8 +1,8 @@
 ---
 layout: post
 og-type: article
-title: ""
-date: 2015-02-26
+title: "A Month at Branch"
+date: 2015-03-13
 author: Austin Hay
 category: "Branch"
 excerpt_separator: <!--more-->
