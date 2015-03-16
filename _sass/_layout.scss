@@ -606,8 +606,8 @@
   float: left;
   height: auto;
   margin: 0 25px 0 0;
-  padding-right: 25px;
-  max-width: 500px;
+  
+  width: 30%;
   border-right: 1px solid #cccccc; 
 
   /* CAPTION TEXT */
@@ -621,7 +621,7 @@
     height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
-    margin: 1%;
+    margin: 2.5%;
     max-width: 40%;
     height: auto;
     vertical-align: middle;
@@ -649,7 +649,7 @@
     height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
-    margin: 1%;
+    margin: 2.5%;
     max-width: 40%;
     vertical-align: middle;
     border: 1px solid #828282;
