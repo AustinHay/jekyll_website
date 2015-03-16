@@ -1,7 +1,7 @@
 ---
 layout: post
 og-type: article
-title: "Sell or Be Sold: Mobile World Congress 2015"
+title: "Conquering Mobile World Congress 2015"
 date: 2015-03-06
 author: Austin Hay
 category: "Branch"
@@ -36,7 +36,7 @@ No, she was talking about [Mobile World Congress 2015](http://www.mobileworldcon
 
 My journey to MWC began moments after I hung up the phone that fateful Thursday night. It was time to prepare. For most companies, MCW takes serveral months of preperation, but not at [Branch](https://branch.io). After our recent [Series A](http://techcrunch.com/2015/02/26/branch-metrics-raises-15-million-for-its-smarter-mobile-deep-linking-technology/) we saw a great opportunity to build relationships, evangelize Branch, make a notable presence, and to learn about the mobile ecosystem. 
 
-Who said you couldn't pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100's of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: <b>[Sell or Be Sold](http://www.grantcardone.com/sell-or-be-sold/): Conquering [MWC](http://www.mobileworldcongress.com/)</b>.
+Who said you couldn't pull off an incredibly successful MWC trip in three days? 4 days, 30 miles walking, 100's of partner meetings, 20 cafe con leches, dozens of cocktail hours, and 18 hour crunches later, this is my story: <b> Conquering [MWC](http://www.mobileworldcongress.com/)</b>.
 
 ### The Adventure Begins...with an App ###
 

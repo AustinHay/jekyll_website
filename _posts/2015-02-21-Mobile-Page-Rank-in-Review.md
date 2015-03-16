@@ -34,7 +34,7 @@ To save you some trouble, I've taken the liberty of curating a set of notes on t
 * <b>How do we find, explore, and interact with content in the future?</b>
 * There's the app, webapp, card, url, messaging app etc., but it's not yet well defined how to find the content you're looking for. On the dev side, how you do you explore and engage customers within that?
 * Chris Dixon: Nobody has invented the real page rank for mobile yet.
-* There is <!-- -->no HTML for native -- no deeplinking through content, no analygous linking structure that you see on the web.
+* There is no HTML for native -- no deeplinking through content, no analygous linking structure that you see on the web.
 * You don't have a universal resource locator for every single piece of content with apps.
 * Even if you deeplink to content you still need to have the app.
 * The reason we had the web is because it was impossibly difficult to do anything else -- it was too hard to get people to buy desktop software.
