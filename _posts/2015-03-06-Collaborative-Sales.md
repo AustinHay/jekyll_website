@@ -28,7 +28,7 @@ Everyone who's seen Glengarry Glen Ross knows Alec Baldwin's infamous Art of Sel
 <iframe width="100%" height="auto" src="https://www.youtube.com/watch?v=3oQZsuJyy-U" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Sales teams often walk far too close to this comical distopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you're still left with the dangerous undertones created by hyper-competitive sales. Sales competition not only leads to [destructive behaviors](http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/) that can tear the sales org apart, but it's now being questioned as the [best practice](http://enterprise-gamification.com/index.php?option=com_content&view=article&id=197:9-reasons-why-competition-is-bad-for-sales&catid=10&Itemid=16&lang=en) in driving effective sales.
+Sales teams often walk far too close to this comical dystopia. It may seem innocuous, but strip away all the dramatic lines, the yelling, the ridiculous analogies, and you're still left with the dangerous undertones created by hyper-competitive sales. Sales competition not only leads to [destructive behaviors](http://www.tlnt.com/2012/01/10/10-destructive-behaviors-that-can-bring-down-a-team%E2%80%99s-success/) that can tear the sales org apart, but it's now being questioned as the [best practice](http://enterprise-gamification.com/index.php?option=com_content&view=article&id=197:9-reasons-why-competition-is-bad-for-sales&catid=10&Itemid=16&lang=en) in driving effective sales.
 
 This is not to say that some forms of competition aren't healthy. Competitive sales has been around forever, but there is room for newer, more collaborative sales models that focus on productivity and employee well-being rather than arbitrary bottom lines.
 
@@ -38,7 +38,7 @@ In fact, for high-tech companies that work very closely with developers in growi
 
 ### My Perception: The Problem With Sales Competition ###
 
-Lots of other people have noted the problems with competitive sales, but in my experience, there are a few things that are worth highlighting. All of these are my own opinions and thoughts. Others might disagree or have found a competitive sales team mindset that works! That's okay. What's more important is being aware of how others function and adapating your sales team to be as productive as possible. 
+Lots of other people have noted the problems with competitive sales, but in my experience, there are a few things that are worth highlighting. All of these are my own opinions and thoughts. Others might disagree or have found a competitive sales team mindset that works! That's okay. What's more important is being aware of how others function and adapting your sales team to be as productive as possible. 
 
 * Competition incentivizes individual accomplishment and success over company goals.
 
@@ -50,7 +50,7 @@ Lots of other people have noted the problems with competitive sales, but in my e
 
 At the end of the day, you're likely left wondering <b>is it possible to adapt to every single person's needs?</b> Unfortunately, the answer is no, probably not. But that isn't to say that you can't try to be more accomodating. The reality is that whatever set of sales rules you choose to integrate might rub off wrongly against particular personalities. However, don't forget that only you have the power to adapt your team and make it more productive. <b>Don't accept the sales status quo because it's business as usual</b>. 
 
-The [same advice](https://blog.branch.io/ideas-are-the-currency-of-growth/) that Morgan Brown vocalizes about growth applies applies to sales: <b>it is an iterative and idea-centric process</b>. Try new things, test what works and what doesn't, capture valuable metrics, get feedback, learn, improve, and double down when you've figured out the best way for your org to sell.
+The [same advice](https://blog.branch.io/ideas-are-the-currency-of-growth/) that [Morgan Brown](https://soundcloud.com/branchmetrics/ideas-are-the-currency-of-growth) vocalizes about growth applies to sales: <b>it is an iterative and idea-centric process</b>. Try new things, test what works and what doesn't, capture valuable metrics, get feedback, learn, improve, and double down when you've figured out the best way for your org to sell.
 
 ### Collaborative Sales Explained ###
 
