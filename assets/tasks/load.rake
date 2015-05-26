@@ -10,7 +10,7 @@ namespace :load do
 # gem install fileutils
 
 require 'fileutils'
-p Dir.pwd
+Dir.pwd
 Dir.chdir "/Users/austinhay/Documents/Background\ Photos/"
 file_names = Dir.glob('*')
 
