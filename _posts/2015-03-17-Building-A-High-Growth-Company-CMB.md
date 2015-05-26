@@ -14,6 +14,7 @@ tags:
 
 image: blogs/value-your-relationships-1.png
 ---
+
 I write here and with Branch Metrics. This is as [posted](https://blog.branch.io/how-to-build-a-company-value-your-relationships/) via the Branch [Blog](https://blog.branch.io)
 
 "All the people around you will serve as the foundation of your company." Sometimes the best advice for starting a high-growth company has to be served up as simple as possible.
