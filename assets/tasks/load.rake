@@ -10,15 +10,15 @@ namespace :load do
 # gem install fileutils
 
 require 'fileutils'
-# Dir.pwd
-Dir.chdir "/Users/Austin/Documents/Background\ Photos/"
+p Dir.pwd
+Dir.chdir "/Users/austinhay/Documents/Background\ Photos/"
 file_names = Dir.glob('*')
 
 	new_photo = []
 	for photo_count in 0...10
 		new_photo[photo_count] = file_names.shuffle.first
 		file_names.shift
-		FileUtils.cp("/Users/Austin/Documents/Background\ Photos/#{new_photo[photo_count]}", "/Users/Austin/coding/my_website/images/post-backgrounds/#{photo_count+1}.jpg")
+		FileUtils.cp("/Users/austinhay/Documents/Background\ Photos/#{new_photo[photo_count]}", "/Users/austinhay/Code/personal_website/images/post-backgrounds/#{photo_count+1}.jpg")
 	end
 
    end

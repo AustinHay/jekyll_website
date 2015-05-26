@@ -10,14 +10,14 @@ layout: homepage
 
         {% include branch_podcasts.html %}
 
-        <h1 class="page-heading"><b>Latest Blogs</b></h1>
+        <h1 class="page-heading"><b>Latest Blog Posts</b></h1>
 
         {% for post in site.posts limit:1 %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            {{ post.excerpt | strip_html | truncatewords:75 }}
-        </h2>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <div class="post-content" style="padding:1%; padding-bottom:3%">{{ post.excerpt | strip_html | truncatewords:75 }}
+            </div>
+        
         {% endfor %}
 
   <ul class="post-list">
@@ -34,6 +34,11 @@ layout: homepage
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+<h1 class="page-heading"><b>Follow me on Medium</b></h1>
+
+<script async src="https://static.medium.com/embed.js"></script><a class="m-profile" data-width="100%" href="https://medium.com/@AustinHay">Austin Hay</a>
+
 
 </div>
 
