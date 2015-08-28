@@ -2,21 +2,21 @@
 destination: ../austinhay.github.io
 title: Austin A. Hay	
 email: austin@austinhay.com
-description: " is a millenial blogger, engineer & operater focused on strategy, leadership, self-development, entrepreneurship, and rookie programming. Don't be a stranger - drop me an email to connect. Contents and code &copy; 2015"
-meta_description: "AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a millenial blogger who codes in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. His interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship."
+description: " is a startup operator, casual blogger, & engineer focused on growth, product development, startup management, strategy, leadership, self-development, entrepreneurship, and rookie programming. Don't be a stranger - drop me an email to connect. Contents and code &copy; 2015"
+meta_description: "AustinHay.com is a blog for coding and entrepeneurship. Austin Hay is a startup operator, casual blogger, & engineer focused on growth, product development, startup management, strategy, leadership, self-development, entrepreneurship, and rookie programming. He dabbles in Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, and Sinatra. Austin's interests and writings lie at the intersect of engineering management, business operations &amp; development, computer programming, software, web-development, high-tech strategy, product design, social impact, sanitation, wash, social entrepreneurship."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://austinhay.com" # the base hostname & protocol for your site
 twitter_username: austinahay	
 github_username:  austinhay
 linkedin_username: austinhay
 
-career_title1: "Engineer"
-career_title2: "Business Ops & Strategy"
+career_title1: "Startup & Strategy Operator"
+career_title2: "Analytics, Product, Growth"
 career_title3: "Junior Programmer"
-career_title4: "Stanford & USC Grad"
+career_title4: "Stanford & USC Engineering"
 
-career_descriptors: "Engineering Management, Business Operations & Development, Analytics, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship"
+career_descriptors: "Business Intelligence, Startup Operations, High-tech Strategy, Analytics, Computer Programming, Software, Web-Development, Product Management, Social Impact, Sanitation, Social Entrepreneurship"
 
-language_descriptors: "I code in...  Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra."
+language_descriptors: "Languages & Frameworks ... Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra."
 # Build settings
 markdown: kramdown
