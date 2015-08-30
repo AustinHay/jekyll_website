@@ -281,36 +281,20 @@
 /* Home Page Elements and Styling */
 
 .home-img-top {
-  padding: 0;
-  margin: 0;
-  height: cover;
-  width: auto;
   text-align: center;
-  min-height: 100%; 
-  vertical-align: middle;
 
-  background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
-  -webkit-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
-  -moz-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
-  -o-background: url(/images/post-backgrounds/1.jpg) no-repeat center center fixed;
-  
-  overflow: hidden;
-  -webkit-overflow: hidden;
-  -moz-overflow: hidden;
-  -o-overflow: hidden;
+  background: url(/images/post-backgrounds/1.jpg) no-repeat top center;
+  -webkit-background: url(/images/post-backgrounds/1.jpg) no-repeat top center;
+  -moz-background: url(/images/post-backgrounds/1.jpg) no-repeat top center;
+  -o-background: url(/images/post-backgrounds/1.jpg) no-repeat top center;
 
-
-  
-  
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  
-  box-shadow: 0 5px 10px 0px $grey-color-dark;
-  -webkit-box-shadow: 0 5px 10px 0px $grey-color-dark;
-  -moz-box-shadow: 0 5px 10px 0px $grey-color-dark;
-  -o-box-shadow: 0 5px 10px 0px $grey-color-dark;
+
+
+  box-shadow: 0 2.5px 5px 0px $grey-color-dark;
+  -webkit-box-shadow: 0 2.5px 5px 0px $grey-color-dark;
+  -moz-box-shadow: 0 2.5px 5px 0px $grey-color-dark;
+  -o-box-shadow: 0 2.5px 5px 0px $grey-color-dark;
 
   }
 
@@ -718,6 +702,15 @@
   overflow: hidden;
   z-index: 1;
   width: 100%; }
+
+#follow-box {
+    padding: 5px;
+    margin: 1%;
+    max-width: 44%;
+    height: auto;
+    float: left;
+    vertical-align: top;
+}
 
 #search-bar {
   max-width: 100%;
