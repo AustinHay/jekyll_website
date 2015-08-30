@@ -1,30 +1,14 @@
 ---
+layout: main
+title: Blog
+permalink: /blog/
+navbar: true
+weight: 10
 excerpt: "My blog on Engineering Management, Business Operations and Development, Computer Programming, Software, Web-Development, High-tech Strategy, Product Design, Social Impact, Sanitation, WASH, Social Entrepreneurship. Coding languages: Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra."
 
 image: projects/og-image-2014-1.jpg
 ---
 
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-        <div>
-          <div class="wrapper">
-            <div>
-              {% include blog-landing.html %}
-              {{ content }}
-            </div>
-          </div>
-          
-          
-        </div>
-    
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<div class="wrapper">
+    {% include blog-landing.html %}
+</div>
