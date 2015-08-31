@@ -116,17 +116,11 @@
   	<link rel='stylesheet' type='text/csshref=' href='https://fonts.googleapis.com/css?family=Raleway'/>
     <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!-- Javascripts -->
-<script type="text/javscript">
-
-$(document).ready(function(){
-  var images = ['../images/post-backgrounds/1.jpg', '../images/post-backgrounds/2.jpg'];
-  $('home-img-top').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-});
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript" src="/assets/js/jekyll-search.js"></script>
 
