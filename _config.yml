@@ -20,7 +20,7 @@ career_descriptors: "Business Intelligence, Startup Operations, High-tech Strate
 language_descriptors: "Languages & Frameworks ... Ruby, Python, JavaScript, jQuery, Coffeescript, SASS, HAML, AJAX, HTML, CSS, SQL, Git, Source Control, Django, Rails, Sinatra."
 # Build settings
 
-markdown: redcarpet
+
 highlighter: pygments
 
 sass:
