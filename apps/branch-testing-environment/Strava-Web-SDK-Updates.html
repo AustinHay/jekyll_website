@@ -1,0 +1,71 @@
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+        // Set base variables
+            var channel = 'Mobile Web'; 
+            var feature = 'club show'; 
+            var campaign = null;
+            var referring_data = null;
+
+        // Grab pathname from URL and parse into the URI for Vevo
+            var url = window.location.href;
+
+        // Grab Campaign and Channel from Strava.com Email URL
+            if (url.search(/branch_campaign/gi) != -1) {
+              var campaign = url.split(/branch_campaign=/gi)[1].split(/&/)[0]
+            };
+
+            if (url.search(/branch_channel/gi) != -1) {
+              var channel = url.split(/branch_channel=/gi)[1].split(/&/)[0]
+            };          
+            
+        (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+
+
+            branch.init('key_live_lmpPsfj2DP8CflI4rmzfiemerte7sgwm', function(err, data) {
+                        // Print referring link data so you can see it.
+                        console.log(err)
+                        console.log(data)
+                            referring_data = data.data_parsed;
+                            console.log(referring_data);
+                        
+                        // Grab Referring Link Information if a user comes from another Branch Link
+                        if (referring_data['~channel'] != null) {
+                        	 channel = referring_data['~channel'];
+                        }
+                       
+                       	if (referring_data['~campaign'] != null) {
+                        	 channel = referring_data['~campaign'];
+                        } 
+                    });
+
+
+  branch.deepview(
+    {
+      channel: channel, // Set the channel via the variable logic above.
+      campaign: campaign, // Set the campaign via the variable logic above.
+      feature: 'club show', // Don't change this for clubs pages. For activity pages, perhaps set this to "activity show"
+      data: {
+      	url: url, // You might want to start piping this for reference.
+        strava_deeplink_url: 'strava://clubs/209844' // You already have fancy logic for this.
+      }
+    }, 
+    { 
+      open_app: true 
+    },
+    function(err) {
+      if (err) {
+        console.log(err);
+        jQuery('.branch-container').remove();
+      } 
+    }
+  ); // End of Branch Web SDK
+
+  </script>
+
+  <button id="branch-button" href="" onclick='branch.deepviewCta()'>Join Strava </button>
+
+  </html>
